@@ -3,32 +3,28 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-    System.out.println(4);
-    System.out.println("salut");
+        //tema
+        //1
+        System.out.println("hello");
+        System.out.println("Dan");
 
-    char myChar = 'p';
-    byte byteI = 123;
-    short myShort = 12345;
-    short myInt = 1;
-    long myLong = 123465789789789l;
-    float myFloat = 12321;
-    String myString = "dan";
-    int result = myChar + 4;
-    System.out.println("rezultate:" + (2 + 2));
+        //2
+        byte i = 28;
+        int i1 = 3;
+        System.out.println(i1 + i);
 
-    int x = 2;
-    x+=x;
-    //x = x + x;
-    x-=x;
-    //x = x - x;
-    x++;
-    //x + 1
-    x --;
-    // x - 1;
-        int y = 2;
-        System.out.println(++y);
-    System.out.println(y+=y+=y++ + ++y);
+        //3
+        System.out.println((float) i / i1);
+
+        //4
+        System.out.println(-5 + 8 * 6);
+
+        System.out.println((55 + 9) % 9);
+
+        System.out.println(20 + -3 * 5D / 8);
+
+        System.out.println(5D + 15 / 3 * 2 - 8 % 3);
+
 
     }
 }
